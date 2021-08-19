@@ -61,7 +61,8 @@
                 "siteId": 1,
                 "agentId": 0,
                 "virtualHostIds": [
-                    2
+                    2,
+                    3
                 ],
                 "identityMappingIds": {
                     "Web": 0,
@@ -469,6 +470,14 @@
                 "id": 2,
                 "host": "*",
                 "port": 3000,
+                "agentResourceCacheTTL": 900,
+                "keyPairId": 0,
+                "trustedCertificateGroupId": 0
+            }
+            {
+                "id": 3,
+                "host": "*",
+                "port": 443,
                 "agentResourceCacheTTL": 900,
                 "keyPairId": 0,
                 "trustedCertificateGroupId": 0
