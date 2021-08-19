@@ -473,7 +473,7 @@
                 "agentResourceCacheTTL": 900,
                 "keyPairId": 0,
                 "trustedCertificateGroupId": 0
-            }
+            },
             {
                 "id": 3,
                 "host": "*",
